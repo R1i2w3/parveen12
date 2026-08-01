@@ -18,12 +18,12 @@
                             background-image: linear-gradient(rgb(30, 2, 54), rgb(77, 0, 128));
                         }
                         
-                       summary {
-                            position: relative;
-                            left: 20px;
-                            top: 30px;
-                            color: white;
-                        }
+                      summary {
+                                position: relative;
+                                left: 20px;
+                                top: 15px;
+                                color: white;
+                            }
                         
                         #i1 {
                             position: absolute;
