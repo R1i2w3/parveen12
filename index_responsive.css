@@ -880,7 +880,7 @@
                                 left: 10px;
                             }
                             #child2>ul {
-                                padding-left: 100px;
+                                padding-left: 150px;
                                 gap: 20px;
                             }
                             #parent5>#i52 {
@@ -1111,7 +1111,7 @@
                                 gap: 10px;
                             }
                             #child2>ul {
-                                padding-left: 30px;
+                                padding-left: 60px;
                                 flex-direction: column;
                                 gap: 10px;
                             }
