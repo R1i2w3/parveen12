@@ -1061,178 +1061,168 @@
                         /* Tablet Devices (max-width: 768px) */
                         
                         @media screen and (max-width: 768px) {
-                            #parent7 {
-                                flex-direction: column;
-                                align-items: center;
-                            }
-                            #parent7>#i71,
-                            #parent7>#i72,
-                            #parent7>#i73,
-                            #parent7>#i74 {
-                                width: 90% !important;
-                            }
-                            #head4,
-                            #h32,
-                            #head3>h1 {
-                                bottom: 0;
-                                left: 0;
-                            }
-                            #head2 {
-                                height: auto;
-                            }
-                            #head3 {
-                                height: auto;
-                                margin-top: 50px;
-                            }
-                            #h31,
-                            #h32 {
-                                position: static;
-                                width: 95%;
-                                margin: 20px auto;
-                                height: auto;
-                            }
-                            #h32 {
-                                margin-top: 30px;
-                            }
-                            #head4 {
-                                position: static;
-                                margin-top: 50px;
-                            }
-                            #head5 {
-                                position: static;
-                            }
-                            #head5>p {
-                                text-align: center;
-                                margin-top: 20px;
-                            }
-                            #parent1>ul {
-                                flex-direction: column;
-                                left: 20px;
-                                gap: 10px;
-                            }
-                            #child2>ul {
-                                padding-left: 0;
-                                flex-direction: column;
-                                gap: 10px;
-                            }
-                            #parent3 {
-                                margin-left: 10px;
-                            }
-                            #i32,
-                            #i33 {
-                                left: 0;
-                            }
-                            #parent5>#i51,
-                            #parent5>#i52 {
-                                width: 90%;
-                                left: 5%;
-                            }
-                            #parent7 {
-                                flex-direction: column;
-                                align-items: center;
-                            }
-                            #parent8>#i81,
-                            #parent8>#i82,
-                            #parent8>#i83,
-                            #parent8>#i84 {
-                                left: 0;
-                                margin: 10px auto;
-                            }
-                            #i91 {
-                                width: 100%;
-                            }
-                            #h11,
-                            #h12,
-                            #h13,
-                            #h14 {
-                                left: 0;
-                                margin: 10px auto;
-                                bottom: auto;
-                            }
-                            #head2>#h21 {
-                                width: 100%;
-                                left: 0;
-                            }
-                            #h31,
-                            #h32 {
-                                width: 100%;
-                                bottom: auto;
-                                left: 0;
-                            }
-                            #head4>ul {
-                                flex-direction: column;
-                                align-items: center;
-                                gap: 10px;
-                                left: 0;
-                            }
-                            #head5>ul {
-                                flex-direction: column;
-                                align-items: center;
-                                left: 0;
-                            }
-                            #head1 {
-                                height: auto;
-                                padding: 20px;
-                                bottom: 0;
-                            }
-                            #head1>h1 {
-                                font-size: 40px;
-                            }
-                            #h11,
-                            #h12,
-                            #h13,
-                            #h14 {
-                                position: static;
-                                width: 90%;
-                                height: 180px;
-                                margin: 20px auto;
-                            }
-                        }
-                        /* Mobile Devices (max-width: 480px) */
-                        
-                        @media screen and (max-width: 480px) {
-                            #child3 {
-                                font-size: 28px;
-                                line-height: 40px;
-                                width: 100%;
-                                margin-left: 10px;
-                            }
-                            #child4 {
-                                font-size: 20px;
-                                line-height: 35px;
-                                width: 100%;
-                                margin-left: 10px;
-                            }
-                            #parent4>h2,
-                            #parent6>h1,
-                            #parent8>h1,
-                            #head1>h1,
-                            #head3>h1 {
-                                font-size: 32px;
-                                margin-left: 10px;
-                            }
-                            #parent5>#i51,
-                            #parent5>#i52 {
-                                width: 95%;
-                                left: 2.5%;
-                                border-top-right-radius: 40px;
-                            }
-                            #i91>button,
-                            #h21>button,
-                            #h31>button,
-                            #h32>button {
-                                width: 100%;
-                                max-width: 250px;
-                                left: 0;
-                            }
-                            #child2>ul {
-                                display: flex;
-                                list-style: none;
-                                gap: 80px;
-                                padding-left: 400px;
-                                position: relative;
-                                color: aliceblue;
-                                overflow: visible;
-                                left: 45px;
-                            }
-                        }
+            #parent7 {
+                flex-direction: column;
+                align-items: center;
+            }
+            #parent7>#i71,
+            #parent7>#i72,
+            #parent7>#i73,
+            #parent7>#i74 {
+                width: 90% !important;
+            }
+            #head4,
+            #h32,
+            #head3>h1 {
+                bottom: 0;
+                left: 0;
+            }
+            #head2 {
+                height: auto;
+            }
+            #head3 {
+                height: auto;
+                margin-top: 50px;
+            }
+            #h31,
+            #h32 {
+                position: static;
+                width: 95%;
+                margin: 20px auto;
+                height: auto;
+            }
+            #h32 {
+                margin-top: 30px;
+            }
+            #head4 {
+                position: static;
+                margin-top: 50px;
+            }
+            #head5 {
+                position: static;
+            }
+            #head5>p {
+                text-align: center;
+                margin-top: 20px;
+            }
+            #parent1>ul {
+                flex-direction: column;
+                left: 20px;
+                gap: 10px;
+            }
+            #child2>ul {
+                padding-left: 0;
+                flex-direction: column;
+                gap: 10px;
+            }
+            #parent3 {
+                margin-left: 10px;
+            }
+            #i32,
+            #i33 {
+                left: 0;
+            }
+            #parent5>#i51,
+            #parent5>#i52 {
+                width: 90%;
+                left: 5%;
+            }
+            #parent7 {
+                flex-direction: column;
+                align-items: center;
+            }
+            #parent8>#i81,
+            #parent8>#i82,
+            #parent8>#i83,
+            #parent8>#i84 {
+                left: 0;
+                margin: 10px auto;
+            }
+            #i91 {
+                width: 100%;
+            }
+            #h11,
+            #h12,
+            #h13,
+            #h14 {
+                left: 0;
+                margin: 10px auto;
+                bottom: auto;
+            }
+            #head2>#h21 {
+                width: 100%;
+                left: 0;
+            }
+            #h31,
+            #h32 {
+                width: 100%;
+                bottom: auto;
+                left: 0;
+            }
+            #head4>ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                left: 0;
+            }
+            #head5>ul {
+                flex-direction: column;
+                align-items: center;
+                left: 0;
+            }
+            #head1 {
+                height: auto;
+                padding: 20px;
+                bottom: 0;
+            }
+            #head1>h1 {
+                font-size: 40px;
+            }
+            #h11,
+            #h12,
+            #h13,
+            #h14 {
+                position: static;
+                width: 90%;
+                height: 180px;
+                margin: 20px auto;
+            }
+        }
+        /* Mobile Devices (max-width: 480px) */
+        
+        @media screen and (max-width: 480px) {
+            #child3 {
+                font-size: 28px;
+                line-height: 40px;
+                width: 100%;
+                margin-left: 10px;
+            }
+            #child4 {
+                font-size: 20px;
+                line-height: 35px;
+                width: 100%;
+                margin-left: 10px;
+            }
+            #parent4>h2,
+            #parent6>h1,
+            #parent8>h1,
+            #head1>h1,
+            #head3>h1 {
+                font-size: 32px;
+                margin-left: 10px;
+            }
+            #parent5>#i51,
+            #parent5>#i52 {
+                width: 95%;
+                left: 2.5%;
+                border-top-right-radius: 40px;
+            }
+            #i91>button,
+            #h21>button,
+            #h31>button,
+            #h32>button {
+                width: 100%;
+                max-width: 250px;
+                left: 0;
+            }
+        }
