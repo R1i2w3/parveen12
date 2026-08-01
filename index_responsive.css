@@ -1,0 +1,1232 @@
+                        html,
+                        body {
+                            margin: 0%;
+                            padding: 0%;
+                            overflow-x: hidden;
+                        }
+                        
+                        * {
+                            margin-bottom: 0%;
+                            height: auto;
+                            min-height: 0;
+                            box-sizing: border-box;
+                        }
+                        
+                        #parent1 {
+                            height: auto;
+                            width: 100%;
+                            background-image: linear-gradient(rgb(30, 2, 54), rgb(77, 0, 128));
+                        }
+                        
+                        summary {
+                            position: relative;
+                            left: 20px;
+                            top: 15px;
+                            color: white;
+                        }
+                        
+                        #i1 {
+                            position: absolute;
+                            top: 70px;
+                            color: white;
+                            padding-left: 20px;
+                            padding-top: 50px;
+                            z-index: 9999;
+                            left: 0;
+                            height: 380px;
+                            width: 1300px;
+                            max-width: 100%;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                        }
+                        
+                        #parent1>ul {
+                            display: flex;
+                            list-style: none;
+                            justify-content: space-evenly;
+                            position: relative;
+                            color: aliceblue;
+                        }
+                        
+                        #child1 {
+                            color: aliceblue;
+                            font-size: 30px;
+                            position: relative;
+                            top: 40px;
+                            left: 10px;
+                        }
+                        
+                        #child2>ul {
+                            display: flex;
+                            list-style: none;
+                            gap: 60px;
+                            padding-left: 450px;
+                            position: relative;
+                            color: aliceblue;
+                            overflow: visible;
+                        }
+                        
+                        #i2 {
+                            /* height: 360px;
+                            width: 100%;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                            position: absolute;
+                            left: 0;
+                            top: 60px;
+                            z-index: 9999; */
+                        }
+                        
+                        #i2>a {
+                            position: relative;
+                            top: 40px;
+                            left: 30px;
+                            color: white;
+                            line-height: 60px;
+                            text-decoration: none;
+                        }
+                        
+                        #i3 {
+                            /* height: 360px;
+                            width: 400px;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                            position: absolute;
+                            left: 0;
+                            top: 60px;
+                            z-index: 9999; */
+                        }
+                        
+                        #i3>h2>a {
+                            position: relative;
+                            left: 30px;
+                            color: white;
+                            line-height: 30px;
+                            text-decoration: none;
+                        }
+                        
+                        #i3>a {
+                            position: relative;
+                            left: 30px;
+                            color: white;
+                            line-height: 30px;
+                            text-decoration: none;
+                        }
+                        
+                        #i4 {
+                            /* height: 360px;
+                            width: 250px;
+                            max-width: 100%;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                            position: absolute;
+                            top: 60px;
+                            left: 400px;
+                            z-index: 9999; */
+                        }
+                        
+                        #i4>h2>a {
+                            position: relative;
+                            left: 30px;
+                            color: white;
+                            line-height: 30px;
+                            text-decoration: none;
+                        }
+                        
+                        #i4>a {
+                            position: relative;
+                            left: 30px;
+                            color: white;
+                            line-height: 30px;
+                            text-decoration: none;
+                        }
+                        
+                        #i7 {
+                            display: flex;
+                            list-style: none;
+                            gap: 80px;
+                            padding-left: 10px;
+                            position: relative;
+                            color: aliceblue;
+                            top: 15px;
+                            left: 0px;
+                        }
+                        
+                        #i8>a {
+                            position: relative;
+                            left: 30px;
+                            color: white;
+                            line-height: 30px;
+                            text-decoration: none;
+                            top: 7px;
+                        }
+                        
+                        #i9 {
+                            /* height: 360px;
+                            width: 300px;
+                            max-width: 100%;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                            position: absolute;
+                            top: 120px;
+                            left: 250px;
+                            z-index: 9999; */
+                        }
+                        
+                        #i9>a {
+                            position: relative;
+                            left: 30px;
+                            color: white;
+                            line-height: 30px;
+                            text-decoration: none;
+                        }
+                        
+                        #child3 {
+                            color: white;
+                            width: 50%;
+                            height: auto;
+                            font-size: 35px;
+                            line-height: 40px;
+                            max-width: 100%;
+                            font-weight: 900;
+                            margin-top: 90px;
+                            margin-left: 20px;
+                        }
+                        
+                        #child4 {
+                            color: white;
+                            height: 100px;
+                            width: 500px;
+                            max-width: 100%;
+                            font-size: 30px;
+                            font-weight: 200;
+                            line-height: 60px;
+                            margin-top: 90px;
+                            margin-left: 20px;
+                        }
+                        
+                        #parent3 {
+                            height: 200px;
+                            width: 100%;
+                            margin-left: 0;
+                            padding: 10px;
+                            margin-right: auto;
+                            max-width: 100%;
+                            display: flex;
+                            gap: 30px;
+                            overflow-x: auto;
+                            overflow-y: hidden;
+                            white-space: nowrap;
+                            scrollbar-width: none;
+                        }
+                        
+                        #i31 {
+                            height: 200px;
+                            width: 695px;
+                            left: 0;
+                            max-width: 100%;
+                            color: white;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                            border-top-left-radius: 40px;
+                            box-shadow: 1px 1px white;
+                            flex-shrink: 0;
+                        }
+                        
+                        #i31:hover {
+                            height: 200px;
+                            width: 695px;
+                            color: white;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                            border-radius: 40px;
+                            box-shadow: 1px 1px white;
+                        }
+                        
+                        #i31>a>img,
+                        #i32>a>img,
+                        #i33>a>img {
+                            height: 200px;
+                            width: 690px;
+                            max-width: 100%;
+                            border-top-left-radius: 40px;
+                            opacity: 0.1;
+                            position: relative;
+                            bottom: 25px;
+                        }
+                        
+                        #i32 {
+                            height: 200px;
+                            width: 695px;
+                            left: 0;
+                            max-width: 100%;
+                            position: relative;
+                            color: white;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                            box-shadow: 1px 1px white;
+                            border-top-left-radius: 40px;
+                            flex-shrink: 0;
+                        }
+                        
+                        #i32:hover {
+                            height: 200px;
+                            width: 695px;
+                            color: white;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                            border-radius: 40px;
+                            box-shadow: 1px 1px white;
+                        }
+                        
+                        #i33 {
+                            height: 200px;
+                            width: 695px;
+                            left: 0;
+                            max-width: 100%;
+                            position: relative;
+                            color: white;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                            box-shadow: 1px 1px white;
+                            border-top-left-radius: 40px;
+                            flex-shrink: 0;
+                        }
+                        
+                        #i33:hover {
+                            height: 200px;
+                            width: 695px;
+                            color: white;
+                            background-image: linear-gradient(black, rgb(100, 48, 141));
+                            border-radius: 40px;
+                            box-shadow: 1px 1px white;
+                        }
+                        
+                        .child {
+                            position: relative;
+                            top: 70px;
+                            left: 30px;
+                            font-size: 20px;
+                            z-index: 10;
+                            color: white;
+                        }
+                        
+                        #parent4 {
+                            height: 200px;
+                            margin-left: 20px;
+                        }
+                        
+                        #parent4>h2 {
+                            font-size: 40px;
+                            margin-left: 20px;
+                        }
+                        
+                        #parent4>p {
+                            font-size: 10px;
+                            font-family: cursive;
+                            margin-left: 20px;
+                        }
+                        
+                        #parent5 {
+                            height: 400px;
+                            width: 100%;
+                            background-image: linear-gradient( rgb(84, 18, 134), black);
+                        }
+                        
+                        #parent5>h1 {
+                            color: white;
+                            position: relative;
+                            top: 20px;
+                            left: 20px;
+                        }
+                        
+                        #parent5>a {
+                            color: white;
+                            position: relative;
+                            top: 20px;
+                            left: 20px;
+                        }
+                        
+                        #i51>h5 {
+                            color: black;
+                            height: 20px;
+                            width: 70px;
+                            background-color: #fff;
+                            margin-top: 100px;
+                            margin-left: 20px;
+                            font-size: 15px;
+                        }
+                        
+                        #i51>h3 {
+                            color: white;
+                            font-size: 25px;
+                            font-family: sans-serif;
+                            margin-left: 20px;
+                        }
+                        
+                        #i52>h5 {
+                            color: black;
+                            height: 20px;
+                            width: 70px;
+                            background-color: #fff;
+                            margin-top: 100px;
+                            margin-left: 20px;
+                            font-size: 15px;
+                        }
+                        
+                        #i52>h3 {
+                            color: white;
+                            font-size: 25px;
+                            font-family: sans-serif;
+                            margin-left: 20px;
+                        }
+                        
+                        #parent5>#i51 {
+                            height: 300px;
+                            width: 600px;
+                            border: 2px solid white;
+                            position: relative;
+                            top: 40px;
+                            border-top-right-radius: 100px;
+                            left: 5px;
+                        }
+                        
+                        #parent5>#i52 {
+                            height: 300px;
+                            width: 600px;
+                            border: 2px solid white;
+                            position: relative;
+                            bottom: 280px;
+                            border-top-right-radius: 100px;
+                            left: 650px;
+                        }
+                        
+                        #parent6 {
+                            margin-left: 20px;
+                        }
+                        
+                        #parent6>h1 {
+                            font-size: 50px;
+                            margin-left: 20px;
+                        }
+                        
+                        #parent7 {
+                            height: 300px;
+                            width: 1100px;
+                            margin-left: 20px;
+                            display: flex;
+                            position: relative;
+                            left: 50px;
+                        }
+                        
+                        #parent7 {
+                            height: 300px;
+                            width: 1100px;
+                            margin-left: 20px;
+                            display: flex;
+                            position: relative;
+                            left: 50px;
+                        }
+                        
+                        #parent7>#i71 {
+                            height: 250px;
+                            width: 250px;
+                            border: 2px solid rgb(248, 229, 229);
+                            border-bottom-right-radius: 50px;
+                            background-image: linear-gradient( rgb(251, 249, 252), rgb(61, 14, 103));
+                        }
+                        
+                        #i71>h3 {
+                            color: white;
+                            font-size: 30px;
+                            margin-top: 120px;
+                            margin-left: 5px;
+                        }
+                        
+                        #i71>p {
+                            color: white;
+                            margin-left: 5px;
+                        }
+                        
+                        #parent7>#i72 {
+                            height: 250px;
+                            width: 250px;
+                            border: 2px solid rgb(248, 229, 229);
+                            border-bottom-right-radius: 50px;
+                            position: relative;
+                            left: 20px;
+                            background-image: linear-gradient( rgb(251, 249, 252), rgb(61, 14, 103));
+                        }
+                        
+                        #i72>h3 {
+                            color: white;
+                            font-size: 30px;
+                            margin-top: 120px;
+                            margin-left: 5px;
+                        }
+                        
+                        #i72>p {
+                            color: white;
+                            margin-left: 5px;
+                        }
+                        
+                        #i73 {
+                            height: 250px;
+                            width: 250px;
+                            border: 2px solid rgb(248, 229, 229);
+                            border-bottom-right-radius: 50px;
+                            position: relative;
+                            left: 40px;
+                            background-image: linear-gradient( rgb(251, 249, 252), rgb(61, 14, 103));
+                        }
+                        
+                        #i73>h3 {
+                            color: white;
+                            font-size: 30px;
+                            margin-top: 120px;
+                            margin-left: 5px;
+                        }
+                        
+                        #i73>p {
+                            color: white;
+                            margin-left: 5px;
+                        }
+                        
+                        #parent7>#i74 {
+                            height: 250px;
+                            width: 250px;
+                            border: 2px solid rgb(248, 229, 229);
+                            border-bottom-right-radius: 50px;
+                            position: relative;
+                            left: 70px;
+                            background-image: linear-gradient( rgb(251, 249, 252), rgb(61, 14, 103));
+                        }
+                        
+                        #i74>h3 {
+                            color: white;
+                            font-size: 30px;
+                            margin-top: 120px;
+                            margin-left: 5px;
+                        }
+                        
+                        #i74>p {
+                            color: white;
+                            margin-left: 5px;
+                        }
+                        
+                        #parent8 {
+                            width: 95%;
+                            height: auto;
+                            margin: auto;
+                            padding-bottom: 30px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            max-width: 100%;
+                            background-color: black;
+                            border-top-right-radius: 60px;
+                            border-bottom-left-radius: 60px;
+                        }
+                        
+                        #parent8>h1 {
+                            color: white;
+                            margin-top: 40px;
+                            margin-left: 20px;
+                            font-size: 60px;
+                        }
+                        
+                        #parent8>#i81 {
+                            height: 250px;
+                            width: 90%;
+                            position: static !important;
+                            margin: 20px auto;
+                            max-width: 100%;
+                            background-color: #fff;
+                            left: 30px;
+                            border-radius: 20px;
+                            box-shadow: 1px 1px 2px 4px lightslategray;
+                        }
+                        
+                        #i81>h3,
+                        #i82>h3,
+                        #i83>h3,
+                        #i84>h3 {
+                            margin-left: 10px;
+                            position: relative;
+                            top: 40px;
+                            font-size: 30px;
+                        }
+                        
+                        #i81>p,
+                        #i82>p,
+                        #i83>p,
+                        #i84>p {
+                            margin-left: 10px;
+                            position: relative;
+                            top: 50px;
+                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        }
+                        
+                        #parent8>#i82 {
+                            height: 250px;
+                            width: 90%;
+                            position: static !important;
+                            margin: 20px auto;
+                            max-width: 100%;
+                            background-color: #fff;
+                            left: 330px;
+                            bottom: 280px;
+                            border-radius: 20px;
+                            box-shadow: 1px 1px 2px 4px lightslategray;
+                        }
+                        
+                        #parent8>#i83 {
+                            height: 250px;
+                            width: 90%;
+                            position: static !important;
+                            margin: 20px auto;
+                            max-width: 100%;
+                            background-color: #fff;
+                            left: 630px;
+                            bottom: 560px;
+                            border-radius: 20px;
+                            box-shadow: 1px 1px 2px 4px lightslategray;
+                        }
+                        
+                        #parent8>#i84 {
+                            height: 250px;
+                            width: 90%;
+                            position: static !important;
+                            margin: 20px auto;
+                            max-width: 100%;
+                            left: 930px;
+                            bottom: 840px;
+                            background-color: #fff;
+                            border-radius: 20px;
+                            box-shadow: 1px 1px 2px 4px lightslategray;
+                        }
+                        
+                        #parent9>img {
+                            height: 300px;
+                            width: 400px;
+                            max-width: 100%;
+                            position: relative;
+                            border-top-left-radius: 100px;
+                            left: 550px;
+                            border-bottom-right-radius: 100px;
+                            background-image: linear-gradient( rgb(251, 249, 252), rgb(61, 14, 103));
+                            box-shadow: 0.5px 0.5px 8px 3px rgb(182, 57, 232);
+                            bottom: 300px;
+                            display: none;
+                        }
+                        
+                        #i91 {
+                            height: 300px;
+                            width: 95%;
+                            max-width: 100%;
+                        }
+                        
+                        #i91>h2 {
+                            font-size: 30px;
+                            margin-left: 20px;
+                        }
+                        
+                        #i91>p {
+                            height: 200px;
+                            font-size: 15px;
+                            margin-left: 20px;
+                        }
+                        
+                        #i91>button>a {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                        
+                        #i91>button {
+                            height: 50px;
+                            width: 280px;
+                            max-width: 100%;
+                            border-top-right-radius: 20px;
+                            border-bottom-left-radius: 20px;
+                            background-color: rgb(182, 57, 232);
+                            border-color: blueviolet;
+                            box-shadow: 2px 2px 6px blueviolet;
+                            position: relative;
+                            bottom: 75px;
+                            left: 20px;
+                        }
+                        
+                        #head1 {
+                            height: 400px;
+                            width: 100%;
+                            color: #fff;
+                            background-color: black;
+                            padding-left: 20px;
+                            display: grid;
+                        }
+                        
+                        #head1>h1 {
+                            font-size: 50px;
+                        }
+                        
+                        #h11 {
+                            height: 200px;
+                            width: 200px;
+                            border: 1px solid rgb(16, 4, 4);
+                            border-top-left-radius: 30px;
+                            position: relative;
+                            left: 30px;
+                            top: 60px;
+                            box-shadow: 2px 2px 2px rgb(200, 199, 199);
+                        }
+                        
+                        #h12 {
+                            height: 200px;
+                            width: 200px;
+                            border: 1px solid rgb(30, 4, 4);
+                            border-top-left-radius: 30px;
+                            position: relative;
+                            left: 280px;
+                            bottom: 140px;
+                            box-shadow: 2px 2px 2px rgb(200, 199, 199);
+                        }
+                        
+                        #h13 {
+                            height: 200px;
+                            width: 200px;
+                            border: 1px solid rgb(15, 3, 3);
+                            border-top-left-radius: 30px;
+                            position: relative;
+                            left: 530px;
+                            bottom: 340px;
+                            box-shadow: 2px 2px 2px rgb(200, 199, 199);
+                        }
+                        
+                        #h14 {
+                            height: 200px;
+                            width: 200px;
+                            border: 1px solid rgb(20, 3, 3);
+                            border-top-left-radius: 30px;
+                            position: relative;
+                            left: 780px;
+                            bottom: 540px;
+                            box-shadow: 2px 2px 2px rgb(200, 199, 199);
+                        }
+                        
+                        .H>h1,
+                        h4 {
+                            margin-left: 20px;
+                            margin-top: 40px;
+                        }
+                        
+                        #head2>img {
+                            position: relative;
+                            left: 20px;
+                        }
+                        
+                        #head2>#h21 {
+                            height: 300px;
+                            width: 400px;
+                            position: static;
+                            width: 95%;
+                            margin: auto;
+                        }
+                        
+                        #h21>h1 {
+                            font-size: 50px;
+                            margin-left: 20px;
+                        }
+                        
+                        #h21>p {
+                            height: 200px;
+                            font-size: 20px;
+                            margin-left: 20px;
+                        }
+                        
+                        #h21>button>a {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                        
+                        #h21>button {
+                            height: 50px;
+                            width: 280px;
+                            border-top-right-radius: 20px;
+                            border-bottom-left-radius: 20px;
+                            background-color: rgb(182, 57, 232);
+                            border-color: blueviolet;
+                            box-shadow: 2px 2px 6 blueviolet;
+                            position: relative;
+                            bottom: 100px;
+                            left: 20px;
+                        }
+                        
+                        #head3>h1 {
+                            position: static;
+                            font-size: 60px;
+                            margin-left: 20px
+                        }
+                        
+                        #h31 {
+                            width: 95%;
+                            position: static;
+                            margin: auto;
+                        }
+                        
+                        #h32 {
+                            width: 95%;
+                            position: static;
+                            margin: auto;
+                        }
+                        
+                        #h31>h2 {
+                            font-size: 40px;
+                            margin-left: 20px;
+                        }
+                        
+                        #h31>p {
+                            font-size: 20px;
+                            margin-left: 20px;
+                        }
+                        
+                        #h31>button {
+                            height: 50px;
+                            width: 280px;
+                            border-top-right-radius: 20px;
+                            border-bottom-left-radius: 20px;
+                            background-color: white;
+                            border-color: white;
+                            position: relative;
+                            left: 20px;
+                        }
+                        
+                        #h31>button>a {
+                            text-decoration: none;
+                        }
+                        
+                        #h32>button>a {
+                            text-decoration: none;
+                        }
+                        
+                        #h32>h2 {
+                            font-size: 40px;
+                            margin-left: 20px;
+                        }
+                        
+                        #h32>p {
+                            font-size: 20px;
+                            margin-left: 20px;
+                        }
+                        
+                        #h32>button {
+                            height: 50px;
+                            width: 280px;
+                            border-top-right-radius: 20px;
+                            border-bottom-left-radius: 20px;
+                            background-color: white;
+                            border-color: white;
+                            box-shadow: 2px 2px 6 white;
+                            position: relative;
+                            left: 20px;
+                            top: 20px;
+                        }
+                        
+                        #head4>ul {
+                            display: flex;
+                            list-style: none;
+                            justify-content: space-evenly;
+                            position: relative;
+                            left: 200px;
+                            color: aliceblue;
+                            bottom: 25px;
+                        }
+                        
+                        #head4 {
+                            height: auto;
+                            width: 100%;
+                            background-image: linear-gradient(rgb(41, 3, 82), black);
+                            position: static;
+                            margin-top: 50px;
+                            bottom: 0;
+                        }
+                        
+                        #head4>h1 {
+                            color: white;
+                        }
+                        
+                        #head4>ul>li>a {
+                            color: white;
+                        }
+                        
+                        #head5>ul {
+                            display: flex;
+                            list-style: none;
+                            position: relative;
+                            color: aliceblue;
+                            bottom: 15px;
+                            gap: 10px;
+                            justify-content: space-evenly;
+                        }
+                        
+                        #head5>p {
+                            color: #fff;
+                        }
+                        
+                        #head5>ul>li>a {
+                            color: #fff;
+                        }
+                        
+                        @media screen and (max-width: 1024px) {
+                            #child1 {
+                                color: aliceblue;
+                                font-size: 30px;
+                                position: relative;
+                                top: 30px;
+                                left: 10px;
+                            }
+                            #child2>ul {
+                                padding-left: 100px;
+                                gap: 20px;
+                            }
+                            #parent5>#i52 {
+                                left: 5px;
+                                bottom: 0;
+                                margin-top: 20px;
+                            }
+                            #parent5 {
+                                height: auto;
+                                padding-bottom: 40px;
+                            }
+                            #parent7 {
+                                flex-wrap: wrap;
+                                height: auto;
+                                gap: 20px;
+                                left: 0;
+                                justify-content: center;
+                            }
+                            #parent7>#i72,
+                            #i73,
+                            #parent7>#i74 {
+                                left: 0;
+                            }
+                            #parent8 {
+                                width: 100%;
+                                height: auto;
+                                margin-left: 0;
+                                padding-bottom: 30px;
+                            }
+                            #parent8>#i82,
+                            #parent8>#i83,
+                            #parent8>#i84 {
+                                position: static;
+                                margin-top: 20px;
+                                margin-left: 30px;
+                            }
+                            #parent9>img {
+                                position: static;
+                                bottom: auto;
+                                left: 0;
+                                margin: 20px;
+                            }
+                            #h12,
+                            #h13,
+                            #h14 {
+                                position: relative;
+                            }
+                            #head2>#h21 {
+                                position: static;
+                                left: 0;
+                                bottom: auto;
+                            }
+                            #h32 {
+                                position: static;
+                                left: 0;
+                                bottom: auto;
+                                margin-top: 20px;
+                            }
+                            #head4>ul,
+                            #head5>ul {
+                                left: 0;
+                                flex-wrap: wrap;
+                            }
+                            #i2 {
+                                /* height: 360px;
+                                width: 100%;
+                                max-width: 100%;
+                                background-image: linear-gradient(black, rgb(100, 48, 141));
+                                position: absolute;
+                                left: 0;
+                                top: 60px;
+                                z-index: 9999; */
+                            }
+                            #i2>a {
+                                position: relative;
+                                top: 40px;
+                                left: 30px;
+                                color: white;
+                                line-height: 60px;
+                                text-decoration: none;
+                            }
+                            #i3 {
+                                /* height: 360px;
+                                width: 400px;
+                                background-image: linear-gradient(black, rgb(100, 48, 141));
+                                position: absolute;
+                                left: 0;
+                                top: 60px;
+                                z-index: 9999;
+                                max-width: 100%; */
+                            }
+                            #i3>h2>a {
+                                position: relative;
+                                left: 30px;
+                                color: white;
+                                line-height: 60px;
+                                text-decoration: none;
+                            }
+                            #i3>a {
+                                position: relative;
+                                left: 30px;
+                                color: white;
+                                line-height: 30px;
+                                text-decoration: none;
+                            }
+                            #i4 {
+                                /* height: 360px;
+                                width: 250px;
+                                max-width: 100%; */
+                                /* background-image: linear-gradient(black, rgb(100, 48, 141)); */
+                                /* position: absolute;
+                                top: 60px;
+                                left: 400px; */
+                            }
+                            #i4>h2>a {
+                                position: relative;
+                                left: 30px;
+                                color: white;
+                                line-height: 60px;
+                                text-decoration: none;
+                            }
+                            #i4>a {
+                                position: relative;
+                                left: 30px;
+                                color: white;
+                                line-height: 30px;
+                                text-decoration: none;
+                            }
+                            #i7 {
+                                display: flex;
+                                list-style: none;
+                                gap: 80px;
+                                padding-left: 10px;
+                                position: relative;
+                                color: aliceblue;
+                                top: 15px;
+                                left: 16px;
+                            }
+                            #i8>h2>a {
+                                position: relative;
+                                left: 30px;
+                                color: white;
+                                line-height: 60px;
+                                text-decoration: none;
+                            }
+                            #i8>a {
+                                position: relative;
+                                left: 30px;
+                                color: white;
+                                line-height: 60px;
+                                text-decoration: none;
+                            }
+                            #i9 {
+                                /* height: 360px;
+                                width: 300px;
+                                max-width: 100%; */
+                                /* background-image: linear-gradient(black, rgb(100, 48, 141)); */
+                                /* position: absolute;
+                                top: 120px;
+                                left: 250px; */
+                                z-index: 9999;
+                            }
+                            #i9>h2>a {
+                                position: relative;
+                                left: 30px;
+                                color: white;
+                                line-height: 60px;
+                                text-decoration: none;
+                            }
+                            #i9>a {
+                                position: relative;
+                                left: 30px;
+                                color: white;
+                                line-height: 60px;
+                                text-decoration: none;
+                            }
+                        }
+                        /* Tablet Devices (max-width: 768px) */
+                        
+                        @media screen and (max-width: 768px) {
+                            #parent7 {
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                            #parent7>#i71,
+                            #parent7>#i72,
+                            #parent7>#i73,
+                            #parent7>#i74 {
+                                width: 90% !important;
+                            }
+                            #head4,
+                            #h32,
+                            #head3>h1 {
+                                bottom: 0;
+                                left: 0;
+                            }
+                            #head2 {
+                                height: auto;
+                            }
+                            #head3 {
+                                height: auto;
+                                margin-top: 50px;
+                            }
+                            #h31,
+                            #h32 {
+                                position: static;
+                                width: 95%;
+                                margin: 20px auto;
+                                height: auto;
+                            }
+                            #h32 {
+                                margin-top: 30px;
+                            }
+                            #head4 {
+                                position: static;
+                                margin-top: 50px;
+                            }
+                            #head5 {
+                                position: static;
+                            }
+                            #head5>p {
+                                text-align: center;
+                                margin-top: 20px;
+                            }
+                            #parent1>ul {
+                                flex-direction: column;
+                                left: 20px;
+                                gap: 10px;
+                            }
+                            #child2>ul {
+                                padding-left: 0;
+                                flex-direction: column;
+                                gap: 10px;
+                            }
+                            #parent3 {
+                                margin-left: 10px;
+                            }
+                            #i32,
+                            #i33 {
+                                left: 0;
+                            }
+                            #parent5>#i51,
+                            #parent5>#i52 {
+                                width: 90%;
+                                left: 5%;
+                            }
+                            #parent7 {
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                            #parent8>#i81,
+                            #parent8>#i82,
+                            #parent8>#i83,
+                            #parent8>#i84 {
+                                left: 0;
+                                margin: 10px auto;
+                            }
+                            #i91 {
+                                width: 100%;
+                            }
+                            #h11,
+                            #h12,
+                            #h13,
+                            #h14 {
+                                left: 0;
+                                margin: 10px auto;
+                                bottom: auto;
+                            }
+                            #head2>#h21 {
+                                width: 100%;
+                                left: 0;
+                            }
+                            #h31,
+                            #h32 {
+                                width: 100%;
+                                bottom: auto;
+                                left: 0;
+                            }
+                            #head4>ul {
+                                flex-direction: column;
+                                align-items: center;
+                                gap: 10px;
+                                left: 0;
+                            }
+                            #head5>ul {
+                                flex-direction: column;
+                                align-items: center;
+                                left: 0;
+                            }
+                            #head1 {
+                                height: auto;
+                                padding: 20px;
+                                bottom: 0;
+                            }
+                            #head1>h1 {
+                                font-size: 40px;
+                            }
+                            #h11,
+                            #h12,
+                            #h13,
+                            #h14 {
+                                position: static;
+                                width: 90%;
+                                height: 180px;
+                                margin: 20px auto;
+                            }
+                        }
+                        /* Mobile Devices (max-width: 480px) */
+                        
+                        @media screen and (max-width: 480px) {
+                            #child3 {
+                                font-size: 28px;
+                                line-height: 40px;
+                                width: 100%;
+                                margin-left: 10px;
+                            }
+                            #child4 {
+                                font-size: 20px;
+                                line-height: 35px;
+                                width: 100%;
+                                margin-left: 10px;
+                            }
+                            #parent4>h2,
+                            #parent6>h1,
+                            #parent8>h1,
+                            #head1>h1,
+                            #head3>h1 {
+                                font-size: 32px;
+                                margin-left: 10px;
+                            }
+                            #parent5>#i51,
+                            #parent5>#i52 {
+                                width: 95%;
+                                left: 2.5%;
+                                border-top-right-radius: 40px;
+                            }
+                            #i91>button,
+                            #h21>button,
+                            #h31>button,
+                            #h32>button {
+                                width: 100%;
+                                max-width: 250px;
+                                left: 0;
+                            }
+                            #child2>ul {
+                                display: flex;
+                                list-style: none;
+                                gap: 80px;
+                                padding-left: 400px;
+                                position: relative;
+                                color: aliceblue;
+                                overflow: visible;
+                                left: 45px;
+                            }
+                        }
